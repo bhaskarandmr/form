@@ -21,6 +21,12 @@ a {
   box-sizing: border-box;
 }
 
+.alert-purple{
+  color: #fff;
+  background-color: #715e9eb7;
+  border-color: #beb6cf;
+}
+
 .alert-blues{
   color: #fff;
   background-color: #5e5f9c;
@@ -43,10 +49,4 @@ a {
   color: #fff;
   background-color: #280c6c;
   border-color: #6a549e;
-}
-
-.alert-purple{
-  color: #fff;
-  background-color: #715e9eb7;
-  border-color: #beb6cf;
 }

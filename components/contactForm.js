@@ -227,7 +227,7 @@ const ContactForm = () => {
             : "" }
 
             <div className="mb-3">
-                <label htmlFor="formControlInput2" className="form-label">Adresse Mail</label>
+                <label htmlFor="formControlInput2" className="form-label">Email Address</label>
                 <input type="email" name="email" value={email} className="form-control" id="formControlInput2" placeholder="ex: julia@example.com" onChange={(e)=>{handleChangeEmail(e.target.value)}}/>
             </div>
             {errorEmail ? 
