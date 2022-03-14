@@ -2,7 +2,9 @@
 
 This is a simple contact form with validations in NextJs.
 
-> Non-exhaustive contact form obviously...
+> It 's a non-exhaustive contact form obviously...
+> ***
+> You can visit https://nextjs-contact-form-with-validations.vercel.app/.
 
 ## First Step : Upload the project
 __Upload the project__ and open it with your favorite IDE.
