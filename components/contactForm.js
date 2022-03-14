@@ -132,6 +132,7 @@ const ContactForm = () => {
         }
     }
 
+    // Create function for sending data
     const handleSubmit = (e) => {
         handleBeforeSubmit()
         e.preventDefault()
@@ -165,8 +166,8 @@ const ContactForm = () => {
                 setValidationMessage(false)
                 setErrorForm('')
                 setTimeout(function(){setSubmitted(false)}, 8000);
-            } 
-            })   
+            }
+            })
         }
     }
 
