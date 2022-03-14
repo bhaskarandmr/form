@@ -1,14 +1,21 @@
 # nextjs-contact-form-with-validations
+
 This is a simple contact form with validations in NextJs.
 
-# First Step : Upload the project
-Upload the project and open it with your favorite IDE.
+> Non-exhaustive contact form obviously...
 
-# Second Step : Initialization
-Launch terminal and insert " npm install " to load all packages you need to run the app correctly.
+## First Step : Upload the project
+__Upload the project__ and open it with your favorite IDE.
 
-# Third Step : Run the app
-Then insert " npm run dev " and click on the localhost link. Check the app. Make sure that it works properly.
+## Second Step : Initialization
+Launch terminal and __run npm install__ to __load all packages you need__ to run the app correctly.
 
-# Last Step 
-Add your favorite Mail API to use this form in any web projects. Enjoy it !
+## Third Step : Run the app
+* Run __npm run dev__ to start the development server on http://localhost:3000.
+* Visit http://localhost:3000 to view your application.
+* Make sure that it works properly.
+> This is how we do it...
+
+## Last Step 
+Add your favorite __Mail API__ to use this form in any web projects.
+> __Enjoy !__
