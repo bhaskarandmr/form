@@ -1,6 +1,6 @@
 # nextjs-contact-form-with-validations
 
-This is a simple contact form with validations in NextJs.
+This is a simple contact form with form validations in NextJs.
 
 > It 's a non-exhaustive contact form obviously...
 > ***
