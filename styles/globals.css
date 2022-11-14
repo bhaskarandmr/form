@@ -46,7 +46,9 @@ a:hover{
   background-color: #6a549e;
   border-color: #280c6c;
 }
-
+.display-4 {
+  font-size: 2rem;
+}
 .btn-purple:focus {
   color: #fff;
   background-color: #280c6c;
