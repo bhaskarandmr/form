@@ -177,9 +177,9 @@ const ContactForm = () => {
     <Svg/>
     <div className="p-3 pb-md-4 mt-3 mx-auto text-center container">
       
-        <h1 className="display-4 fw-normal">
+        <h3 className="display-4 fw-normal">
 இது உங்களுக்கான வழிகாட்டி நிகழ்ச்சி
-</h1>
+</h3>
         <p className="fs-5 text-muted">Register for FREE</p>
         <p>Get your guidance on IAS studies</p>
     </div>
