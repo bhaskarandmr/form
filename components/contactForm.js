@@ -118,17 +118,17 @@ const ContactForm = () => {
             setErrorForm("Please verify your name.")
         }
         else if(validationEmail == false){
-            setErrorForm("Please verify your email address.")
+            //setErrorForm("Please verify your email address.")
         }
         else if(validationObject == false){
-            setErrorForm("Please verify your object message.")
+           // setErrorForm("Please verify your object message.")
         }
         
         else if(validationMessage == false){
-            setErrorForm("Please verify your message.")
+            //setErrorForm("Please verify your message.")
         }
         else { 
-            setErrorForm("Please complete this form properly.")
+          //  setErrorForm("Please complete this form properly.")
         }
     }
 
