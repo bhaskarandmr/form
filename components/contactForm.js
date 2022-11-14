@@ -247,10 +247,10 @@ const ContactForm = () => {
             <div className="mb-3">
                 <label htmlFor="formControlInput3" className="form-label">Subject/label>
                 <select className="form-select" value={object} name="object" onChange={(e)=>{handleChangeObject(e.target.value)}} aria-label="Select Input">
-                    <option value="object" disabled>Choose a subject</option>
-                    <option value="IAS">IAS</option>
-                    <option value="TNPSC">TNPSC</option>
-                    <option value="UPSC">UPSC</option>
+                     <option value="object" disabled>Choose a subject</option>
+                    <option value="jobOffer">Job Offer</option>
+                    <option value="contact">Contact</option>
+                    <option value="others">Others</option>
                 </select>
             </div>
             {errorObject ? 
