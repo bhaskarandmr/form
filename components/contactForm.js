@@ -5,9 +5,9 @@ const ContactForm = () => {
 
     // Create all data we need for sending an email.
     const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [object, setObject] = useState('object')
-    const [message, setMessage] = useState('')
+  //  const [email, setEmail] = useState('')
+  // const [object, setObject] = useState('object')
+  //  const [message, setMessage] = useState('')
     const [submitted, setSubmitted] = useState(false)
     
     // Create some variables for checking data before submit the form
@@ -245,7 +245,7 @@ const ContactForm = () => {
             : "" }
 
            <div className="mb-3">
-                <label htmlFor="formControlInput3" className="form-label">Message Object</label>
+                <label htmlFor="formControlInput3" className="form-label">Message subject</label>
                 <select className="form-select" value={object} name="object" onChange={(e)=>{handleChangeObject(e.target.value)}} aria-label="Select Input">
                     <option value="object" disabled>Choose a subject</option>
                     <option value="IAS">IAS</option>
@@ -284,7 +284,7 @@ const ContactForm = () => {
             : "" }
 
             <div className="col-12 mb-3">
-                <button className="btn btn-purple" type="button" onClick={(e) => handleSubmit(e)}>Send my message</button>
+                <button className="btn btn-purple" type="button" onClick={(e) => handleSubmit(e)}>Submit</button>
             </div> 
             
         </form>
