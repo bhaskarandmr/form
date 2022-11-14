@@ -5,9 +5,9 @@ const ContactForm = () => {
 
     // Create all data we need for sending an email.
     const [name, setName] = useState('')
-  //  const [email, setEmail] = useState('')
-  // const [object, setObject] = useState('object')
-  //  const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('')
+  const [object, setObject] = useState('object')
+  const [message, setMessage] = useState('')
     const [submitted, setSubmitted] = useState(false)
     
     // Create some variables for checking data before submit the form
