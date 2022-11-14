@@ -56,7 +56,81 @@ const ContactForm = () => {
         }
     }
 
-    
+    // Email field (input)
+    const handleChangeEmail = (e) =>{
+
+        if (!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(e)) {
+            
+            setErrorEmail("Enter your email address correctly.")
+            setEmail(e)
+            return setValidationEmail(false)
+        }
+        else {
+
+            setErrorEmail("")
+            setEmail(e)
+            return setValidationEmail(true)
+        }
+    }
+
+    // Object field (select)
+    const handleChangeObject = (e) =>{
+
+        if ( e === "object") {
+
+            setErrorObject("Choose a subject for your message.")
+            setObject(e)
+            return setValidationObject(false) 
+        }
+        else {
+
+            setErrorObject("")
+            setObject(e)
+            return setValidationObject(true)
+        }
+    }
+
+    // Message field (textarea)
+    const handleChangeMessage = (e) =>{
+
+        if (e.trim().length < 30) {
+
+            setErrorMessage("Enter a message of at least 30 characters.")
+            setMessage(e)
+            return setValidationMessage(false)
+        }
+        else {
+
+            setErrorMessage("")
+            setMessage(e)
+            return setValidationMessage(true)
+        }
+    }
+
+    // Create a function for double checking all fields in the form before sending data
+    const handleBeforeSubmit = () => {
+
+        if (validationName == true && validationEmail == true && validationObject == true && validationMessage == true) {    
+            setErrorForm("Sending...")
+            return true
+        }
+        else if(validationName == false){
+            setErrorForm("Please verify your name.")
+        }
+        else if(validationEmail == false){
+            setErrorForm("Please verify your email address.")
+        }
+        else if(validationObject == false){
+           setErrorForm("Please verify your object message.")
+        }
+        
+        else if(validationMessage == false){
+            //setErrorForm("Please verify your message.")
+        }
+        else { 
+          setErrorForm("Please complete this form properly.")
+        }
+    }
 
     // Create function for sending data
     const handleSubmit = (e) => {
