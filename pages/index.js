@@ -6,8 +6,8 @@ export default function Home() {
   <>
 
     <Head>
-      <title>Simple Contact Form With Validations</title>
-      <meta name="description" content="Simple contact Form in NextJs" />
+      <title>Form With Validations</title>
+      <meta name="description" content="Form in NextJs" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
